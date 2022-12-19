@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #201b2c;
+}
+.screen{
+    display: flex;
+    height: 100vh;
+    position: absolute;
+    right: 30%;
+}
+.side-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-left img {
+    max-width: 7000px;
+    height: auto;
+    width: 55%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    
+}
+.side-right{
+    width: 460px;
+    fill: 100px;
+    background-color: #2f2841 ;
+}
+.side-right label{
+    display: block;
+    margin-bottom: 7px;
+}
+.side-right input{
+    border: 1px #00ff88 #00ff88;
+    border-radius: 13px;
+    fill: 5px;
+    outline: 0;
+}
